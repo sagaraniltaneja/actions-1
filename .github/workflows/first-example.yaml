@@ -7,6 +7,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Welcome message
+              uses: actions/checkout@v4
+
+            - name: Welcome message
               run: echo "My first GitHub Action demo"
             
             - name: List files on repository
